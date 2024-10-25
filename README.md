@@ -1,6 +1,6 @@
-#Projeto Sinopse de filmes
+# Projeto Sinopse de filmes
 
-##Descrição
+## Descrição
 
 Serviço para integração de API de filmes para sinopses de filmes em português.
 
@@ -8,3 +8,9 @@ Serviço para integração de API de filmes para sinopses de filmes em portuguê
 
 - API com a database de filmes http://www.omdbapi.com/
 - Serviço de tradução https://github.com/LibreTranslate/LibreTranslate
+
+## Stack
+
+- JavaScript
+- Express
+- Docker
