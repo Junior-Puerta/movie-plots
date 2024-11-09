@@ -13,7 +13,7 @@ export async function fetchMovie(movieName) {
 }
 
 export async function fetchTranslate(plot) {
-  const URL = "http://host.docker.internal:5000/translate"; //rota para fazer a chamada da API local(no pc)
+  const URL = "http://host.docker.internal:5000/translate"; //rota para fazer a chamada da API local(no pc) // substuição de localhost para host.docker.internal para comunicação entre conteiners.
 
   const res = await fetch(URL, {
     //no 2° parametro do fetch neste caso é um objeto, dados a mais que a nossa requisição precisa ter para ser mandada com sucesso, conforme documentação.
